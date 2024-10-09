@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link href="styles.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <div class="todo-app">
+      <div class="app-title">
+        <h2>Lista de Tarefas</h2>
+        <i class="fa-brands fa-pagelines"></i>
+      </div>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Adicione suas tarefas">
+        <button onclick="addTask()">Adicionar</button>
+      </div>
+      <ul id="list-container"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
